@@ -1,0 +1,27 @@
+{
+  "sessionToken": "633472",
+  "userID": "Enotary",
+  "entityCode": "1211110925",
+
+  "channel": "POS",
+
+  "instrument": "EDIRHAM_INSTANT",
+
+  "locationCode": "242",
+  "transactionReference": "trfs930239843",
+  "sourceReference": "2323343",
+
+  "secureHash": "ae234c876f4666212d17d9e906f40a9396a077989db563a00a80fda544adb444",
+  "services": [
+    {
+      "serviceCode": "1214110024",
+      "quantity": "1"
+    }
+  ]
+}
+
+
+
+
+
+

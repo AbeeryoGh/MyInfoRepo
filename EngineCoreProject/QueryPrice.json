@@ -1,0 +1,204 @@
+﻿{
+  "response Time": "5/2/2021 12:41:11 PM",
+  {
+    {
+      "Amount": "0",
+      "CollectionCenterFees": "000",
+      "EDirhamFees": "000",
+      "EServiceData": null,
+      "InvoiceID": "Eno20211454",
+      "PUN": "952182000PW169175",
+      "TransactionResponseDate": "02052021124110",
+      "ConfirmationID": "",
+      "Status": "3000",
+      "StatusMessage": "Payment failed please contact the bank"
+    }
+  }
+}
+{
+  "response Time": "5/2/2021 12:42:26 PM",
+  {
+    [
+      {
+        "key": "Response.InvoiceNo",
+        "value": [ "Eno20211454" ]
+      },
+      {
+        "key": "Response.Status",
+        "value": [ "0000" ]
+      },
+      {
+        "key": "Response.StatusMessage",
+        "value": [ "%d8%aa%d9%85%d8%aa%2b%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a9%2b%d8%a8%d9%86%d8%ac%d8%a7%d8%ad." ]
+      },
+      {
+        "key": "Response.ConfirmationID",
+        "value": [ "11224567147333363703" ]
+      },
+      {
+        "key": "Response.TransactionResponseDate",
+        "value": [ "02052021124226" ]
+      },
+      {
+        "key": "Response.Amount",
+        "value": [ "15606" ]
+      },
+      {
+        "key": "Response.PUN",
+        "value": [ "952182000PW169175" ]
+      },
+      {
+        "key": "Response.Currency",
+        "value": [ "784" ]
+      },
+      {
+        "key": "Response.BankID",
+        "value": [ "MOFPGB" ]
+      },
+      {
+        "key": "Response.MerchantID",
+        "value": [ "952182000" ]
+      },
+      {
+        "key": "Response.MerchantModuleSessionID",
+        "value": [ "gyfziozdyivwp3nz3tyatjjk" ]
+      },
+      {
+        "key": "Response.TerminalID",
+        "value": [ "00610205" ]
+      },
+      {
+        "key": "Response.ReceiptID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.CollectionCenterFees",
+        "value": [ "000" ]
+      },
+      {
+        "key": "Response.EDirhamFees",
+        "value": [ "606" ]
+      },
+      {
+        "key": "Response.TransactionAmount",
+        "value": [ "15606" ]
+      },
+      {
+        "key": "Response.PaymentMethodType",
+        "value": [ "1" ]
+      },
+      {
+        "key": "Response.prfToken",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.prfMaskedCardNumber",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.EServiceData",
+        "value": [ "[{\"quantity\":\"1\",\"price\":\"5000\",\"ownerFees\":\"0\",\"amountWithFees\":\"5000\",\"amountWithoutFees\":\"5000\",\"mainSubCode\":\"145307-0026\"},{\"quantity\":\"1\",\"price\":\"10000\",\"ownerFees\":\"0\",\"amountWithFees\":\"10000\",\"amountWithoutFees\":\"10000\",\"mainSubCode\":\"145307-0032\"}]" ]
+      },
+      {
+        "key": "Response.SecureHash",
+        "value": [ "NDQzNTRmZjFjODgxYmUyODc2ODAyMmZlM2RjOGUyYjUwNzdmMWJiNDVkYWFkODg5ZGRhNjNjMzE2MWVkMWNkNA==" ]
+      }
+    ]
+  }}
+
+
+{
+  "sessionToken": "633472",
+  "userID": "Enotary",
+  "entityCode": "1211110925",
+
+  "channel": "POS",
+
+  "instrument": "EDIRHAM_INSTANT",
+
+  "locationCode": "242",
+  "transactionReference": "trfs930239843",
+  "sourceReference": "2323343",
+
+  "secureHash": "ae234c876f4666212d17d9e906f40a9396a077989db563a00a80fda544adb444",
+  "services": [
+    {
+      "serviceCode": "1214110024",
+      "quantity": "1"
+    }
+  ]
+}
+
+
+
+
+
+
+
+{
+  "uniqueReferenceNumber": "10985306860024132989",
+  "totalTaxAmount": 0,
+  "totalAmount": 53,
+  "sourceReference": "2323343",
+  "hashReference": "Not Supported",
+  "services": [
+    {
+      "serviceCode": "1214110024",
+      "englishName": "Electronic Services for notary",
+      "arabicName": "الخدمات الالكترونية لكاتب العدل",
+      "englishDescription": "Electronic Services for notary",
+      "arabicDescription": "الخدمات الالكترونية لكاتب العدل",
+      "unitPrice": 50,
+      "priceType": "FIXED",
+      "transactionAmount": 0,
+      "numberOfUnits": 0,
+      "quantity": 1,
+      "taxApplicable": false,
+      "serviceAmount": 50,
+      "serviceTaxAmount": 0,
+      "totalTaxAmount": 0,
+      "totalAmount": 50,
+      "serviceRefundTaxAmount": 0,
+      "serviceRefundAmount": 0,
+      "taxDetails": [
+        {
+          "taxableAmount": 50,
+          "taxAmount": 0,
+          "taxRegisterationNumber": "null",
+          "taxCode": "SOVEREIGN"
+        }
+      ]
+    }
+  ],
+  "fees": [
+    {
+      "feeCode": "1100010023",
+      "englishName": "eDirham Fee for eDirham Instant",
+      "arabicName": "رسوم الدرهم الفوري",
+      "englishDescription": "eDirham Fee for eDirham Instant",
+      "arabicDescription": "رسوم الدرهم الفوري",
+      "type": "PROCESSING",
+      "subType": "EDIRHAM_FEE_FOR_EDIRHAM_INSTANT",
+      "unitPrice": 3,
+      "priceType": "FIXED",
+      "transactionAmount": 0,
+      "numberOfUnits": 0,
+      "quantity": 1,
+      "taxApplicable": false,
+      "feeAmount": 3,
+      "feeTaxAmount": 0,
+      "feeRefundTaxAmount": 0,
+      "feeRefundAmount": 0,
+      "isDebit": false
+    }
+  ],
+  "entityCode": "1211110925",
+  "channel": "POS",
+  "instrument": "EDIRHAM_INSTANT",
+  "locationCode": "242",
+  "transactionReference": "trfs930239843",
+  "totalFees": 3,
+  "responseCode": "00",
+  "responseDescription": "Success",
+  "responseDateTime": "2021-04-08 14:44:27"
+}

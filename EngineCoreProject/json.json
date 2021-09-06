@@ -1,0 +1,88 @@
+{
+  "ar":[
+    {
+      "key": "Response.InvoiceNo",
+      "value": [ "Eno20211454" ]
+    },
+    {
+      "key": "Response.Status",
+      "value": [ "0000" ]
+    },
+    {
+      "key": "Response.StatusMessage",
+      "value": [ "%d8%aa%d9%85%d8%aa%2b%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a9%2b%d8%a8%d9%86%d8%ac%d8%a7%d8%ad." ]
+    },
+    {
+      "key": "Response.ConfirmationID",
+      "value": [ "11224567147333363703" ]
+    },
+    {
+      "key": "Response.TransactionResponseDate",
+      "value": [ "02052021124226" ]
+    },
+    {
+      "key": "Response.Amount",
+      "value": [ "15606" ]
+    },
+    {
+      "key": "Response.PUN",
+      "value": [ "952182000PW169175" ]
+    },
+    {
+      "key": "Response.Currency",
+      "value": [ "784" ]
+    },
+    {
+      "key": "Response.BankID",
+      "value": [ "MOFPGB" ]
+    },
+    {
+      "key": "Response.MerchantID",
+      "value": [ "952182000" ]
+    },
+    {
+      "key": "Response.MerchantModuleSessionID",
+      "value": [ "gyfziozdyivwp3nz3tyatjjk" ]
+    },
+    {
+      "key": "Response.TerminalID",
+      "value": [ "00610205" ]
+    },
+    {
+      "key": "Response.ReceiptID",
+      "value": [ "" ]
+    },
+    {
+      "key": "Response.CollectionCenterFees",
+      "value": [ "000" ]
+    },
+    {
+      "key": "Response.EDirhamFees",
+      "value": [ "606" ]
+    },
+    {
+      "key": "Response.TransactionAmount",
+      "value": [ "15606" ]
+    },
+    {
+      "key": "Response.PaymentMethodType",
+      "value": [ "1" ]
+    },
+    {
+      "key": "Response.prfToken",
+      "value": [ "" ]
+    },
+    {
+      "key": "Response.prfMaskedCardNumber",
+      "value": [ "" ]
+    },
+    {
+      "key": "Response.EServiceData",
+      "value": [ "[{\"quantity\":\"1\",\"price\":\"5000\",\"ownerFees\":\"0\",\"amountWithFees\":\"5000\",\"amountWithoutFees\":\"5000\",\"mainSubCode\":\"145307-0026\"},{\"quantity\":\"1\",\"price\":\"10000\",\"ownerFees\":\"0\",\"amountWithFees\":\"10000\",\"amountWithoutFees\":\"10000\",\"mainSubCode\":\"145307-0032\"}]" ]
+    },
+    {
+      "key": "Response.SecureHash",
+      "value": [ "NDQzNTRmZjFjODgxYmUyODc2ODAyMmZlM2RjOGUyYjUwNzdmMWJiNDVkYWFkODg5ZGRhNjNjMzE2MWVkMWNkNA==" ]
+    }
+  ]
+}

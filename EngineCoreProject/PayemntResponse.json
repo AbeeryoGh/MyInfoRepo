@@ -1,0 +1,183 @@
+﻿{
+  "response Time": "4/19/2021 11:17:00 AM",
+  {
+    [
+      {
+        "key": "Response.InvoiceNo",
+        "value": [ "Eno2021128" ]
+      },
+      {
+        "key": "Response.Status",
+        "value": [ "2198" ]
+      },
+      {
+        "key": "Response.StatusMessage",
+        "value": [ "%d8%a7%d9%84%d8%ba%d9%8a%d8%aa%2b%d9%85%d9%86%2b%d9%85%d9%88%d8%ac%d9%87%2b%d8%a7%d9%84%d8%af%d9%81%d8%b9%2b%d9%82%d8%a8%d9%84%2b%d8%a7%d8%ae%d8%aa%d9%8a%d8%a7%d8%b1%2b%d8%b7%d8%b1%d9%8a%d9%82%d8%a9%2b%d8%a7%d9%84%d8%af%d9%81%d8%b9" ]
+      },
+      {
+        "key": "Response.ConfirmationID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.TransactionResponseDate",
+        "value": [ "19042021111659" ]
+      },
+      {
+        "key": "Response.Amount",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.PUN",
+        "value": [ "952182000PW163827" ]
+      },
+      {
+        "key": "Response.Currency",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.BankID",
+        "value": [ "MOFPGB" ]
+      },
+      {
+        "key": "Response.MerchantID",
+        "value": [ "952182000" ]
+      },
+      {
+        "key": "Response.MerchantModuleSessionID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.TerminalID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.ReceiptID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.CollectionCenterFees",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.EDirhamFees",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.TransactionAmount",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.PaymentMethodType",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.prfToken",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.prfMaskedCardNumber",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.EServiceData",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.SecureHash",
+        "value": [ "M2UwZGY2ZGVhZmJmOWRlODFkN2VkOTAxYjFlNzgyYzIyN2QyMmVhNTliNTc2MjE2ODZkOTIwYWYxOWE4YThkZQ==" ]
+      }
+    ]
+  }
+}
+
+{
+  "response Time": "4/19/2021 11:18:56 AM",
+  {
+    
+    [
+      {
+        "key": "Response.InvoiceNo",
+        "value": [ "Eno2021128" ]
+      },
+      {
+        "key": "Response.Status",
+        "value": [ "2198" ]
+      },
+      {
+        "key": "Response.StatusMessage",
+        "value": [ "%d8%a7%d9%84%d8%ba%d9%8a%d8%aa%2b%d9%85%d9%86%2b%d9%85%d9%88%d8%ac%d9%87%2b%d8%a7%d9%84%d8%af%d9%81%d8%b9%2b%d9%82%d8%a8%d9%84%2b%d8%a7%d8%ae%d8%aa%d9%8a%d8%a7%d8%b1%2b%d8%b7%d8%b1%d9%8a%d9%82%d8%a9%2b%d8%a7%d9%84%d8%af%d9%81%d8%b9" ]
+      },
+      {
+        "key": "Response.ConfirmationID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.TransactionResponseDate",
+        "value": [ "19042021111855" ]
+      },
+      {
+        "key": "Response.Amount",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.PUN",
+        "value": [ "952182000PW163827" ]
+      },
+      {
+        "key": "Response.Currency",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.BankID",
+        "value": [ "MOFPGB" ]
+      },
+      {
+        "key": "Response.MerchantID",
+        "value": [ "952182000" ]
+      },
+      {
+        "key": "Response.MerchantModuleSessionID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.TerminalID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.ReceiptID",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.CollectionCenterFees",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.EDirhamFees",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.TransactionAmount",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.PaymentMethodType",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.prfToken",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.prfMaskedCardNumber",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.EServiceData",
+        "value": [ "" ]
+      },
+      {
+        "key": "Response.SecureHash",
+        "value": [ "YzJhNGUzZWM5NTY2NWY4ODZiMTM2NWVhMGFlZjNmMjcyM2M5YzljNzZiYmZkYmU3ZGZiNDBiMWMxMTBmZDk3ZQ==" ]
+      }
+    ]
+  }}
