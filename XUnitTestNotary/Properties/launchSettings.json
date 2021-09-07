@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "XUnitTestNotary": {
-      "commandName": "Project",
-      "sqlDebugging": true,
-      "nativeDebugging": true
-    }
-  }
-}
