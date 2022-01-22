@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace EmpDomainLayer.Models
 {
-  class Task
+ public class Task
   {
     public int Id { get; set; }
-    public int UserId { get; set; }
+    //public int UserId { get; set; }
     public DateTime DateFrom { get; set; }
     public DateTime ToDate { get; set; }
     public bool Priority { get; set; }

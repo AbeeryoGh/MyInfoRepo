@@ -2,24 +2,23 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using EmpDomainLayer.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace EmpDomainLayer.EntityMapper
 {
-  class VacationMap : IEntityTypeConfiguration<Vacation>
+  class TaskMap : IEntityTypeConfiguration<Task>
   {
-    public void Configure(EntityTypeBuilder<Vacation> builder)
+    public void Configure(EntityTypeBuilder<Task> builder)
     {
       builder.HasKey(x => x.Id)
-               .HasName("pk_Vacationid");
+               .HasName("pk_taskid");
 
       builder.Property(x => x.Id).ValueGeneratedOnAdd()
                 .HasColumnName("id")
                    .HasColumnType("INT");
-      
+
       //builder.Property(x => x.EmpId)
       //          .HasColumnName("userid")
       //             .HasColumnType("INT")
@@ -32,8 +31,11 @@ namespace EmpDomainLayer.EntityMapper
               .HasColumnName("todate")
                  .HasColumnType("datetime")
                  .IsRequired();
-     
-      
+
+      builder.Property(x => x.Priority)
+            .HasColumnName("priority")
+               .HasColumnType("bit");
+
     }
 
   }
