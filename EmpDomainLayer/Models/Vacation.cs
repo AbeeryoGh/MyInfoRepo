@@ -14,7 +14,7 @@ namespace EmpDomainLayer.Models
     public DateTime ToDate { get; set; }
 
 
-    public int EmpId { get; set; }
+    //public int EmpId { get; set; }
     public Employee Employee { get; set; }
    
   }

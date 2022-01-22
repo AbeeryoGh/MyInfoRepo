@@ -21,7 +21,6 @@ C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\trainingDotNetCore.dll
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\ref\trainingDotNetCore.dll
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\trainingDotNetCore.pdb
-C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.csproj.AssemblyReference.cache
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.AssemblyInfoInputs.cache
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.AssemblyInfo.cs
@@ -30,3 +29,19 @@ C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\ref\trainingDotNetCore.dll
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.pdb
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.genruntimeconfig.cache
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.csproj.CopyComplete

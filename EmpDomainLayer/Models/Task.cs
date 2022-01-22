@@ -15,7 +15,9 @@ namespace EmpDomainLayer.Models
     public bool Priority { get; set; }
 
 
-    public List<Employee_Task> Employee_Tasks { get; set; }
+    //public int EmpId { get; set; }
+    public Employee Employee { get; set; }
+   // public List<Employee_Task> Employee_Tasks { get; set; }
 
   }
 }

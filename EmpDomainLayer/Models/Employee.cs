@@ -16,6 +16,6 @@ namespace EmpDomainLayer.Models
     public List<Vacation> Vacations { get; set; }
 
 
-    public List<Employee_Task> Employee_Tasks { get; set; }
+    public List<Task> Employee_Tasks { get; set; }
   }
 }

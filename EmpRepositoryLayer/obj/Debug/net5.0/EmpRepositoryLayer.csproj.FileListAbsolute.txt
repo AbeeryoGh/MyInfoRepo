@@ -10,3 +10,9 @@ C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\obj\
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\obj\Debug\net5.0\EmpRepositoryLayer.dll
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\obj\Debug\net5.0\ref\EmpRepositoryLayer.dll
 C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\obj\Debug\net5.0\EmpRepositoryLayer.pdb
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\bin\Debug\net5.0\EmpRepositoryLayer.runtimeconfig.json
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\bin\Debug\net5.0\EmpRepositoryLayer.runtimeconfig.dev.json
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\bin\Debug\net5.0\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\bin\Debug\net5.0\EmpDomainLayer.pdb
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\obj\Debug\net5.0\EmpRepositoryLayer.csproj.CopyComplete
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpRepositoryLayer\obj\Debug\net5.0\EmpRepositoryLayer.genruntimeconfig.cache

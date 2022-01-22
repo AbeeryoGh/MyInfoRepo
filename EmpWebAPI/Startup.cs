@@ -1,7 +1,9 @@
+using EmpRepositoryLayer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -33,7 +35,7 @@ namespace EmpWebAPI
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "EmpWebAPI", Version = "v1" });
       });
 
-     /// services.AddDbContext<ApplicationDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("myconn")));
+     services.AddDbContext<ApplicationDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("EmpDBCon")));
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
