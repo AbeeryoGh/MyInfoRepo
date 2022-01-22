@@ -1,0 +1,12 @@
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\bin\Debug\net5.0\EmpDomainLayer.deps.json
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\bin\Debug\net5.0\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\bin\Debug\net5.0\ref\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\bin\Debug\net5.0\EmpDomainLayer.pdb
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\obj\Debug\net5.0\EmpDomainLayer.csproj.AssemblyReference.cache
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\obj\Debug\net5.0\EmpDomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\obj\Debug\net5.0\EmpDomainLayer.AssemblyInfoInputs.cache
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\obj\Debug\net5.0\EmpDomainLayer.AssemblyInfo.cs
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\obj\Debug\net5.0\EmpDomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\obj\Debug\net5.0\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\obj\Debug\net5.0\ref\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\EmpDomainLayer\obj\Debug\net5.0\EmpDomainLayer.pdb

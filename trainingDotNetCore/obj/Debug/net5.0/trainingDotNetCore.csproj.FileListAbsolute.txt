@@ -14,3 +14,19 @@ D:\info\HR\test colleagues\trainingRepo\trainingDotNetCore\obj\Debug\net5.0\trai
 D:\info\HR\test colleagues\trainingRepo\trainingDotNetCore\obj\Debug\net5.0\ref\trainingDotNetCore.dll
 D:\info\HR\test colleagues\trainingRepo\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.pdb
 D:\info\HR\test colleagues\trainingRepo\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.genruntimeconfig.cache
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\trainingDotNetCore.exe
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\trainingDotNetCore.deps.json
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\trainingDotNetCore.runtimeconfig.json
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\trainingDotNetCore.runtimeconfig.dev.json
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\trainingDotNetCore.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\ref\trainingDotNetCore.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\bin\Debug\net5.0\trainingDotNetCore.pdb
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.csproj.AssemblyReference.cache
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.AssemblyInfoInputs.cache
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.AssemblyInfo.cs
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.csproj.CoreCompileInputs.cache
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\ref\trainingDotNetCore.dll
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.pdb
+C:\Users\ABEER\Desktop\RepoForTraining\Repo-For-Training\trainingDotNetCore\obj\Debug\net5.0\trainingDotNetCore.genruntimeconfig.cache
