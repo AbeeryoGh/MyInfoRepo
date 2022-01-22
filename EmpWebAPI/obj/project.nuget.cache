@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nJ3/NYlCkjXPbVStTr+Ilfl6/rYBV5YW4/bNUw0Q7l2hlIdJxWB21FvDSyYI52X1e/h/t9Iu+/geIb5Y8M6Nhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ABEER\\Desktop\\RepoForTraining\\Repo-For-Training\\EmpWebAPI\\EmpWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ABEER\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ABEER\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ABEER\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\ABEER\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\ABEER\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\ABEER\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
