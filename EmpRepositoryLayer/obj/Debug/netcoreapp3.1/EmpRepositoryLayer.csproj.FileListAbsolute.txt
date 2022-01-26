@@ -1,0 +1,16 @@
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.deps.json
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.runtimeconfig.json
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.runtimeconfig.dev.json
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.pdb
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\bin\Debug\netcoreapp3.1\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\bin\Debug\netcoreapp3.1\EmpDomainLayer.pdb
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.AssemblyInfo.cs
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.csproj.CopyComplete
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.pdb
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpRepositoryLayer\obj\Debug\netcoreapp3.1\EmpRepositoryLayer.genruntimeconfig.cache

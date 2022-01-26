@@ -1,0 +1,13 @@
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\bin\Debug\netcoreapp3.1\EmpDomainLayer.deps.json
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\bin\Debug\netcoreapp3.1\EmpDomainLayer.runtimeconfig.json
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\bin\Debug\netcoreapp3.1\EmpDomainLayer.runtimeconfig.dev.json
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\bin\Debug\netcoreapp3.1\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\bin\Debug\netcoreapp3.1\EmpDomainLayer.pdb
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\obj\Debug\netcoreapp3.1\EmpDomainLayer.csproj.AssemblyReference.cache
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\obj\Debug\netcoreapp3.1\EmpDomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\obj\Debug\netcoreapp3.1\EmpDomainLayer.AssemblyInfoInputs.cache
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\obj\Debug\netcoreapp3.1\EmpDomainLayer.AssemblyInfo.cs
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\obj\Debug\netcoreapp3.1\EmpDomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\obj\Debug\netcoreapp3.1\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\obj\Debug\netcoreapp3.1\EmpDomainLayer.pdb
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpDomainLayer\obj\Debug\netcoreapp3.1\EmpDomainLayer.genruntimeconfig.cache
