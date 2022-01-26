@@ -20,7 +20,7 @@
           "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
         }
       },
-      "Microsoft.CSharp/4.7.0": {
+      "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -94,22 +94,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Design/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
-        },
-        "build": {
-          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/3.1.0": {
@@ -1298,20 +1282,6 @@
         "runtime": {
           "bin/placeholder/EmpRepositoryLayer.dll": {}
         }
-      },
-      "EmpServiceLayer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "EmpDomainLayer": "1.0.0",
-          "EmpRepositoryLayer": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/EmpServiceLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EmpServiceLayer.dll": {}
-        }
       }
     }
   },
@@ -1367,10 +1337,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.CSharp/4.7.0": {
-      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
-      "path": "microsoft.csharp/4.7.0",
+      "path": "microsoft.csharp/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1383,7 +1353,6 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -1393,7 +1362,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -1518,22 +1487,6 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.3.1.0.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec",
-        "packageIcon.png"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Design/3.1.0": {
-      "sha512": "zxyus0fUcAhst5Essf2g+GFgKN7BCITJ004DR4uAkLkn8lLS5MoxNDCBNjCF5lGrNx7a6wBaqQE7tgt7Ss2Hog==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.design/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
-        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.design.nuspec",
         "packageIcon.png"
       ]
     },
@@ -5004,19 +4957,12 @@
       "type": "project",
       "path": "../EmpRepositoryLayer/EmpRepositoryLayer.csproj",
       "msbuildProject": "../EmpRepositoryLayer/EmpRepositoryLayer.csproj"
-    },
-    "EmpServiceLayer/1.0.0": {
-      "type": "project",
-      "path": "../EmpServiceLayer/EmpServiceLayer.csproj",
-      "msbuildProject": "../EmpServiceLayer/EmpServiceLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "EmpDomainLayer >= 1.0.0",
-      "EmpRepositoryLayer >= 1.0.0",
-      "EmpServiceLayer >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 3.1.0"
+      "EmpRepositoryLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5026,11 +4972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpWebAPI\\EmpWebAPI.csproj",
-      "projectName": "EmpWebAPI",
-      "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpWebAPI\\EmpWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj",
+      "projectName": "EmpServiceLayer",
+      "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj",
       "packagesPath": "C:\\Users\\ABEER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5055,9 +5001,6 @@
             },
             "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj": {
               "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj"
-            },
-            "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj": {
-              "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj"
             }
           }
         }
@@ -5071,14 +5014,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[3.1.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -5090,9 +5025,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -1,3 +1,4 @@
+using EmpRepositoryLayer.RepositoryPattern;
 using EmpRepositoryLayer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -12,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EmpServiceLayer.EmpServices;
 
 namespace EmpWebAPI
 {
@@ -31,6 +33,12 @@ namespace EmpWebAPI
       //add connection string
       services.AddDbContext<ApplicationDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("EmpDBCon"),
         b => b.MigrationsAssembly("EmpRepositoryLayer")));
+
+
+
+      //add services injected
+      services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+      services.AddTransient<IEmployeeService, EmployeeService>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
