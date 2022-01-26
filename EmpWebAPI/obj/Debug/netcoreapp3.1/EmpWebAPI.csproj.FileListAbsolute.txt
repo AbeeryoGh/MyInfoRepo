@@ -44,3 +44,5 @@ C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netco
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.pdb
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.genruntimeconfig.cache
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpServiceLayer.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpServiceLayer.pdb

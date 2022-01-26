@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EmpDomainLayer\EmpDomainLayer.csproj" />
+    <ProjectReference Include="..\EmpRepositoryLayer\EmpRepositoryLayer.csproj" />
+  </ItemGroup>
+
 </Project>
