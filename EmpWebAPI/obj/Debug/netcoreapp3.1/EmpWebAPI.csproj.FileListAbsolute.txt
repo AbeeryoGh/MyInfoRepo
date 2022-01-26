@@ -28,8 +28,10 @@ C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netco
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpDomainLayer.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpServiceLayer.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpDomainLayer.pdb
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.pdb
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpServiceLayer.pdb
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.csproj.AssemblyReference.cache
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.AssemblyInfoInputs.cache
@@ -44,5 +46,3 @@ C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netco
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.pdb
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\obj\Debug\netcoreapp3.1\EmpWebAPI.genruntimeconfig.cache
-C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpServiceLayer.dll
-C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpServiceLayer.pdb

@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,8 +17,12 @@ namespace EmpDomainLayer.Models
     public bool Priority { get; set; }
 
 
-   // public int EmpId { get; set; }
+    // public int EmpId { get; set; }
     public Employee Employee { get; set; }
+
+    //[Key, ForeignKey("Employee")]
+    //public int EmployeeId    {       get;       set;     }
+
     // public List<Employee_Task> Employee_Tasks { get; set; }
 
   }

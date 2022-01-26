@@ -1,13 +1,14 @@
-using EmpDomainLayer.Models;
-using EmpRepositoryLayer.RepositoryPattern;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using EmpDomainLayer.Models;
+using EmpRepositoryLayer.RepositoryPattern;
 
 namespace EmpServiceLayer.EmpServices
 {
-  public class VacationService
+  public class VacationService : IVacationService
   {
     #region Property  
     private IRepository<Vacation> _repository;
@@ -20,29 +21,29 @@ namespace EmpServiceLayer.EmpServices
     }
     #endregion
 
-    public IEnumerable<Vacation> GetAllVacations()
+    public IEnumerable<Vacation> Get()
     {
       return _repository.GetAll();
     }
 
-    public Vacation GetVacation(int id)
+    public Vacation Get(int id)
     {
       return _repository.Get(id);
     }
 
-    public void InsertVacation(Vacation Vacation)
+    public void Post(Vacation Vacation)
     {
       _repository.Insert(Vacation);
     }
-    public void UpdateVacation(Vacation Vacation)
+    public void Put(Vacation Vacation)
     {
       _repository.Update(Vacation);
     }
 
-    public void DeleteVacation(int id)
+    public void Delete(int id)
     {
-      Vacation Vacation = GetVacation(id);
-      _repository.Remove(Vacation);
+      Vacation vacation = Get(id);
+      _repository.Remove(vacation);
       _repository.SaveChanges();
     }
   }
