@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj": {}
+    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj": {
+    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj",
-        "projectName": "EmpDomainLayer",
-        "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj",
+        "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj",
+        "projectName": "EmpRepositoryLayer",
+        "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\ABEER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\obj\\",
+        "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -50,10 +50,6 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[3.1.0, )"
             }

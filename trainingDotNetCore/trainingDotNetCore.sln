@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "trainingDotNetCore", "train
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpDomainLayer", "..\EmpDomainLayer\EmpDomainLayer.csproj", "{7967C842-46EC-4903-8D1B-0E08E41CA4D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpRepositoryLayer", "..\EmpRepositoryLayer\EmpRepositoryLayer.csproj", "{9E5F9BF5-1873-4015-A28C-8177BBAD710C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7967C842-46EC-4903-8D1B-0E08E41CA4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7967C842-46EC-4903-8D1B-0E08E41CA4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7967C842-46EC-4903-8D1B-0E08E41CA4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5F9BF5-1873-4015-A28C-8177BBAD710C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5F9BF5-1873-4015-A28C-8177BBAD710C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5F9BF5-1873-4015-A28C-8177BBAD710C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5F9BF5-1873-4015-A28C-8177BBAD710C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
