@@ -16,7 +16,7 @@ namespace EmpRepositoryLayer
     }
 
     public virtual DbSet<Employee> Employee { get; set; }
-    public virtual DbSet<ETask> Task { get; set; }
+    public virtual DbSet<ETask> ETask { get; set; }
     public virtual DbSet<Vacation> Vacation { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -32,7 +32,7 @@ namespace EmpRepositoryLayer
 
       base.OnModelCreating(modelBuilder);
       modelBuilder.ApplyConfiguration(new EmployeeMap());
-      modelBuilder.ApplyConfiguration(new TaskMap());
+      modelBuilder.ApplyConfiguration(new ETaskMap());
       modelBuilder.ApplyConfiguration(new VacationMap());
 
       //  modelBuilder.Entity<Employee>()

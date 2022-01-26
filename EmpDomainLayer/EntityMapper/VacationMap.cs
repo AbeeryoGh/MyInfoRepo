@@ -33,10 +33,10 @@ namespace EmpDomainLayer.EntityMapper
                  .HasColumnType("datetime")
                  .IsRequired();
 
-      builder.HasOne(t => t.Employee)
-          .WithMany(t => t.Vacations)
-          .HasForeignKey(d => d.Id)
-          .HasConstraintName("FK_Task_Vacations_EmpID");
+      //builder.HasOne(t => t.Employee)
+      //    .WithMany(t => t.Vacations)
+      //    .HasForeignKey(d => d.Id)
+      //    .HasConstraintName("FK_Task_Vacations_EmpID");
     }
 
   }

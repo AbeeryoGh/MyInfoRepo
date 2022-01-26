@@ -11,6 +11,7 @@ C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netco
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace EmpDomainLayer.EntityMapper
 {
-  public class TaskMap : IEntityTypeConfiguration<ETask>
+  public class ETaskMap : IEntityTypeConfiguration<ETask>
   {
     public void Configure(EntityTypeBuilder<ETask> builder)
     {
@@ -36,10 +36,10 @@ namespace EmpDomainLayer.EntityMapper
             .HasColumnName("priority")
                .HasColumnType("bit");
 
-      builder.HasOne(t => t.Employee)
-           .WithMany(t => t.ETasks)
-           .HasForeignKey(d => d.Id)
-           .HasConstraintName("FK_Task_Employee_EmpID");
+      //builder.HasOne(t => t.Employee)
+      //     .WithMany(t => t.ETasks)
+      //     .HasForeignKey(d => d.)
+      //     .HasConstraintName("FK_Task_Employee_EmpID");
 
 
     }

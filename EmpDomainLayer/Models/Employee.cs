@@ -14,9 +14,9 @@ namespace EmpDomainLayer.Models
 
     //public List<Vacation> Vacations { get; set; }
 
-    public ICollection<Vacation> Vacations { get; set; }
+    //public ICollection<Vacation> Vacations { get; set; }
 
-    public ICollection<ETask> ETasks { get; set; }
+    //public ICollection<ETask> ETasks { get; set; }
 
     //public List<Task> Employee_Tasks { get; set; }
   }
