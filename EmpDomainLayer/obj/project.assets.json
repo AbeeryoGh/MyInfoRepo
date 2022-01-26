@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
         "type": "package",
         "compile": {
@@ -653,7 +653,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.0"
     ]
@@ -665,11 +665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\trainingDotNetCore\\trainingDotNetCore.csproj",
-      "projectName": "trainingDotNetCore",
-      "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\trainingDotNetCore\\trainingDotNetCore.csproj",
+      "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj",
+      "projectName": "EmpDomainLayer",
+      "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj",
       "packagesPath": "C:\\Users\\ABEER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\trainingDotNetCore\\obj\\",
+      "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -679,15 +679,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -698,8 +698,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

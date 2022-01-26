@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c8WnFvrlVYiHR7hKgfesK/ENpHpdaRpGAdXG9zu1UeNJXDAL4It0hNw1Oo+a7uo+YOYJJj8OLhJXLBFFiy6N6A==",
+  "dgSpecHash": "vBWpjCXOc+irYVKlFd5iHqcm6WgAbqvaLR76e8+lvgr/7OzqtlrFFnWL4pEoDjzsDnh9mJAT5Zna3v5JujqHCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\trainingDotNetCore\\trainingDotNetCore.csproj",
+  "projectFilePath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ABEER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\ABEER\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
