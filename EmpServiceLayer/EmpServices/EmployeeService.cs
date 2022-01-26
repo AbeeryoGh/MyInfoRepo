@@ -21,28 +21,28 @@ namespace EmpServiceLayer.EmpServices
     }
     #endregion
 
-    public IEnumerable<Employee> GetAllEmployees()
+    public IEnumerable<Employee> Get()
     {
       return _repository.GetAll();
     }
 
-    public Employee GetEmployee(int id)
+    public Employee Get(int id)
     {
       return _repository.Get(id);
     }
 
-    public void InsertEmployee(Employee Employee)
+    public void Post(Employee Employee)
     {
       _repository.Insert(Employee);
     }
-    public void UpdateEmployee(Employee Employee)
+    public void Put(Employee Employee)
     {
       _repository.Update(Employee);
     }
 
-    public void DeleteEmployee(int id)
+    public void Delete(int id)
     {
-      Employee Employee = GetEmployee(id);
+      Employee Employee = Get(id);
       _repository.Remove(Employee);
       _repository.SaveChanges();
     }

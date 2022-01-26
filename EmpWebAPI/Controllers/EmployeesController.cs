@@ -24,10 +24,10 @@ namespace EmpWebAPI.Controllers
     }
     #endregion
 
-    [HttpGet]
+    [HttpGet("{id}")]
     public IActionResult GetEmployee(int id)
     {
-      var result = _employeeService.GetEmployee(id);
+      var result = _employeeService.Get(id);
       if (!(result is null))
       {
         return Ok(result);
@@ -35,10 +35,10 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
-    [HttpGet(nameof(GetAllEmployees))]
+    [HttpGet]
     public IActionResult GetAllEmployees()
     {
-      var result = _employeeService.GetAllEmployees();
+      var result = _employeeService.Get();
       if (!(result is null))
       {
         return Ok(result);
@@ -46,24 +46,24 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
-    [HttpPost(nameof(InsertEmployee))]
+    [HttpPost]
     public IActionResult InsertEmployee(Employee employee)
     {
-      _employeeService.InsertEmployee(employee);
+      _employeeService.Post(employee);
       return Ok("Data inserted");
 
     }
-    [HttpPut(nameof(UpdateEmployee))]
+    [HttpPut]
     public IActionResult UpdateEmployee(Employee employee)
     {
-      _employeeService.UpdateEmployee(employee);
+      _employeeService.Put(employee);
       return Ok("Updation done");
 
     }
-    [HttpDelete(nameof(DeleteEmployee))]
+    [HttpDelete("{id}")]
     public IActionResult DeleteEmployee(int Id)
     {
-      _employeeService.DeleteEmployee(Id);
+      _employeeService.Delete(Id);
       return Ok("Data Deleted");
 
     }

@@ -9,10 +9,10 @@ namespace EmpServiceLayer.EmpServices
 {
   public interface IEmployeeService
   {
-    IEnumerable<Employee> GetAllEmployees();
-    Employee GetEmployee(int id);
-    void InsertEmployee(Employee employee);
-    void UpdateEmployee(Employee employee);
-    void DeleteEmployee(int id);
+    IEnumerable<Employee> Get();
+    Employee Get(int id);
+    void Post(Employee employee);
+    void Put(Employee employee);
+    void Delete(int id);
   }
 }
