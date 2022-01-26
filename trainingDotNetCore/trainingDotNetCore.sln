@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpDomainLayer", "..\EmpDom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpRepositoryLayer", "..\EmpRepositoryLayer\EmpRepositoryLayer.csproj", "{9E5F9BF5-1873-4015-A28C-8177BBAD710C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpWebAPI", "..\EmpWebAPI\EmpWebAPI.csproj", "{46EBAAB9-50A0-466E-8585-D9C7FE4C968F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9E5F9BF5-1873-4015-A28C-8177BBAD710C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E5F9BF5-1873-4015-A28C-8177BBAD710C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E5F9BF5-1873-4015-A28C-8177BBAD710C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EBAAB9-50A0-466E-8585-D9C7FE4C968F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EBAAB9-50A0-466E-8585-D9C7FE4C968F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EBAAB9-50A0-466E-8585-D9C7FE4C968F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EBAAB9-50A0-466E-8585-D9C7FE4C968F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
