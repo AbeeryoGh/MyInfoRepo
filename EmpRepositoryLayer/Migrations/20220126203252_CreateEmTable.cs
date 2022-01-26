@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EmpRepositoryLayer.Migrations
 {
-    public partial class CreateEmplTable : Migration
+    public partial class CreateEmTable : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -31,7 +31,7 @@ namespace EmpRepositoryLayer.Migrations
                     datefrom = table.Column<DateTime>(type: "datetime", nullable: false),
                     todate = table.Column<DateTime>(type: "datetime", nullable: false),
                     priority = table.Column<bool>(type: "bit", nullable: false),
-                    EmployeeId = table.Column<int>(nullable: true)
+                    EmployeeId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -41,7 +41,7 @@ namespace EmpRepositoryLayer.Migrations
                         column: x => x.EmployeeId,
                         principalTable: "Employee",
                         principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -52,7 +52,7 @@ namespace EmpRepositoryLayer.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     datefrom = table.Column<DateTime>(type: "datetime", nullable: false),
                     todate = table.Column<DateTime>(type: "datetime", nullable: false),
-                    EmployeeId = table.Column<int>(nullable: true)
+                    EmployeeId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -62,7 +62,7 @@ namespace EmpRepositoryLayer.Migrations
                         column: x => x.EmployeeId,
                         principalTable: "Employee",
                         principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(

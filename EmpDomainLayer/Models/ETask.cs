@@ -18,10 +18,10 @@ namespace EmpDomainLayer.Models
 
 
     // public int EmpId { get; set; }
-    public Employee Employee { get; set; }
+    //public Employee Employee { get; set; }
 
-    //[Key, ForeignKey("Employee")]
-    //public int EmployeeId    {       get;       set;     }
+    [Key, ForeignKey("Employee")]
+    public int EmployeeId { get; set; }
 
     // public List<Employee_Task> Employee_Tasks { get; set; }
 

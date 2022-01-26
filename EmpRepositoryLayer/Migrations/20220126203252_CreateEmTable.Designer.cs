@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmpRepositoryLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220126173936_CreateEmplTable")]
-    partial class CreateEmplTable
+    [Migration("20220126203252_CreateEmTable")]
+    partial class CreateEmTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,7 +33,7 @@ namespace EmpRepositoryLayer.Migrations
                         .HasColumnName("datefrom")
                         .HasColumnType("datetime");
 
-                    b.Property<int?>("EmployeeId")
+                    b.Property<int>("EmployeeId")
                         .HasColumnType("INT");
 
                     b.Property<bool>("Priority")
@@ -93,7 +93,7 @@ namespace EmpRepositoryLayer.Migrations
                         .HasColumnName("datefrom")
                         .HasColumnType("datetime");
 
-                    b.Property<int?>("EmployeeId")
+                    b.Property<int>("EmployeeId")
                         .HasColumnType("INT");
 
                     b.Property<DateTime>("ToDate")
@@ -110,16 +110,20 @@ namespace EmpRepositoryLayer.Migrations
 
             modelBuilder.Entity("EmpDomainLayer.Models.ETask", b =>
                 {
-                    b.HasOne("EmpDomainLayer.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId");
+                    b.HasOne("EmpDomainLayer.Models.Employee", null)
+                        .WithMany("ETasks")
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("EmpDomainLayer.Models.Vacation", b =>
                 {
-                    b.HasOne("EmpDomainLayer.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId");
+                    b.HasOne("EmpDomainLayer.Models.Employee", null)
+                        .WithMany("Vacations")
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
