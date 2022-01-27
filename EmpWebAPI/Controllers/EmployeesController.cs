@@ -1,6 +1,8 @@
 using EmpDomainLayer.Models;
+using EmpRepositoryLayer;
 using EmpServiceLayer.EmpServices;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -15,12 +17,17 @@ namespace EmpWebAPI.Controllers
   {
     #region Property  
     private readonly IEmployeeService _employeeService;
+    private readonly IETaskService _etaskservice;
+   // private readonly IVacationService _vacationservice;
+   
     #endregion
 
     #region Constructor  
-    public EmployeeController(IEmployeeService employeeService)
+    public EmployeeController(IEmployeeService employeeService,IETaskService etaskservice)
     {
       _employeeService = employeeService;
+      _etaskservice = etaskservice;
+      //_vacationservice = vacationservice;
     }
     #endregion
 
@@ -28,6 +35,7 @@ namespace EmpWebAPI.Controllers
     public IActionResult GetEmployee(int id)
     {
       var result = _employeeService.Get(id);
+
       if (!(result is null))
       {
         return Ok(result);
@@ -35,6 +43,23 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
+
+    [HttpGet("{id}/Tasks")]
+    public IActionResult GetEmployeeTasks(int id)
+    {
+
+      var result = _employeeService.Get(id);
+      result.ETasks = _etaskservice.Get().Where(em => em.EmployeeId == id).ToList();
+//      result.Vacations = _vacationservice.Get().Where(em => em.EmployeeId == id).ToList();
+
+      if (!(result is null))
+      {
+        return Ok(result);
+      }
+      return BadRequest("No records found");
+
+    }
+
     [HttpGet]
     public IActionResult GetAllEmployees()
     {
