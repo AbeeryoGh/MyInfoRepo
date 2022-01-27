@@ -40,7 +40,7 @@ namespace EmpWebAPI
       services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
       services.AddTransient<IEmployeeService, EmployeeService>();
       services.AddTransient<IVacationService, VacationService>();
-
+      services.AddTransient<IETaskService, ETaskService>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
