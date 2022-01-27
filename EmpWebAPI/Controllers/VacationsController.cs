@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EmpWebAPI.Controllers
 {
-  [Route("api/[controller]")]
+  [Route("api/v1/[controller]")]
   [ApiController]
   public class VacationController : ControllerBase
   {
