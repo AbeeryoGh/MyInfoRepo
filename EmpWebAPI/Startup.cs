@@ -34,6 +34,10 @@ namespace EmpWebAPI
       services.AddDbContext<ApplicationDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("EmpDBCon"),
         b => b.MigrationsAssembly("EmpRepositoryLayer")));
 
+      //swagger
+      services.AddSwaggerGen(gen => {
+        gen.SwaggerDoc("v1.0", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "EmpWebAPI", Version = "v1.0" });
+      });
 
 
       //add services injected
@@ -65,6 +69,14 @@ namespace EmpWebAPI
       app.UseRouting();
 
       app.UseAuthorization();
+
+      app.UseSwagger();
+
+      app.UseSwaggerUI(ui =>
+      {
+        ui.SwaggerEndpoint("/swagger/v1.0/swagger.json", "EmpWebAPI v1 EndPoint");
+        
+      });
 
       app.UseEndpoints(endpoints =>
       {

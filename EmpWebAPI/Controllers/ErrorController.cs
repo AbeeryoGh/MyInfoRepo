@@ -38,7 +38,7 @@ namespace EmpWebAPI.Controllers
       var context = HttpContext.Features.Get<IExceptionHandlerFeature>();
       return Problem(
           detail: context.Error.StackTrace,
-          title: "ABEER",
+          title: context.Error.Message,
           statusCode: context.Error.HResult);
     }
 

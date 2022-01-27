@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\EmpDomainLayer\EmpDomainLayer.csproj" />
     <ProjectReference Include="..\EmpRepositoryLayer\EmpRepositoryLayer.csproj" />
   </ItemGroup>

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EmpWebAPI.Controllers
 {
-  [Route("[controller]")]
+  [Route("api/[controller]")]
   [ApiController]
   public class ETaskController : ControllerBase
   {
