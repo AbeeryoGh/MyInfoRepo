@@ -48,8 +48,17 @@ namespace EmpWebAPI
     {
       if (env.IsDevelopment())
       {
+        //Developement Environment exception handler
         app.UseDeveloperExceptionPage();
+
       }
+      else
+      {
+        //Non-Developement Environment exception handler
+        app.UseExceptionHandler("/error");
+      }
+      //Non-Developement Environment exception handler
+      app.UseStatusCodePages("text/plain", "Status code page, status code: {0}");
 
       //app.UseHttpsRedirection();
 
