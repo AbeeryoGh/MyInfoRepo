@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\XUnitTestProjectApi\\XUnitTestProjectApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj",
+        "projectName": "EmpDomainLayer",
+        "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj",
+        "packagesPath": "C:\\Users\\ABEER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ABEER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj",
+        "projectName": "EmpRepositoryLayer",
+        "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\ABEER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ABEER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj": {
+                "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj",
+        "projectName": "EmpServiceLayer",
+        "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\ABEER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ABEER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj": {
+                "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj"
+              },
+              "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\XUnitTestProjectApi\\XUnitTestProjectApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\XUnitTestProjectApi\\XUnitTestProjectApi.csproj",
+        "projectName": "XUnitTestProjectApi",
+        "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\XUnitTestProjectApi\\XUnitTestProjectApi.csproj",
+        "packagesPath": "C:\\Users\\ABEER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\XUnitTestProjectApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ABEER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj": {
+                "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpDomainLayer\\EmpDomainLayer.csproj"
+              },
+              "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpRepositoryLayer\\EmpRepositoryLayer.csproj"
+              },
+              "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj": {
+                "projectPath": "C:\\Users\\ABEER\\Desktop\\RepoTraining2\\Repo-For-Training\\EmpServiceLayer\\EmpServiceLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

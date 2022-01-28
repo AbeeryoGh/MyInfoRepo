@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "trainingDotNetCore", "trainingDotNetCore.csproj", "{BAE98685-5AEA-4B21-B96F-BD0A4FB49898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpDomainLayer", "..\EmpDomainLayer\EmpDomainLayer.csproj", "{7967C842-46EC-4903-8D1B-0E08E41CA4D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpDomainLayer", "..\EmpDomainLayer\EmpDomainLayer.csproj", "{7967C842-46EC-4903-8D1B-0E08E41CA4D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpRepositoryLayer", "..\EmpRepositoryLayer\EmpRepositoryLayer.csproj", "{9E5F9BF5-1873-4015-A28C-8177BBAD710C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpRepositoryLayer", "..\EmpRepositoryLayer\EmpRepositoryLayer.csproj", "{9E5F9BF5-1873-4015-A28C-8177BBAD710C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpWebAPI", "..\EmpWebAPI\EmpWebAPI.csproj", "{46EBAAB9-50A0-466E-8585-D9C7FE4C968F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpWebAPI", "..\EmpWebAPI\EmpWebAPI.csproj", "{46EBAAB9-50A0-466E-8585-D9C7FE4C968F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpServiceLayer", "..\EmpServiceLayer\EmpServiceLayer.csproj", "{3E44AE87-E5B0-4B6D-B3CC-B9C2D07F3165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpServiceLayer", "..\EmpServiceLayer\EmpServiceLayer.csproj", "{3E44AE87-E5B0-4B6D-B3CC-B9C2D07F3165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProjectApi", "..\XUnitTestProjectApi\XUnitTestProjectApi.csproj", "{D2F60B73-6DF9-446E-AC40-B2AE935443C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3E44AE87-E5B0-4B6D-B3CC-B9C2D07F3165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E44AE87-E5B0-4B6D-B3CC-B9C2D07F3165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E44AE87-E5B0-4B6D-B3CC-B9C2D07F3165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F60B73-6DF9-446E-AC40-B2AE935443C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F60B73-6DF9-446E-AC40-B2AE935443C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F60B73-6DF9-446E-AC40-B2AE935443C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F60B73-6DF9-446E-AC40-B2AE935443C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

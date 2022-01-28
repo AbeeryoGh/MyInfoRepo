@@ -1,4 +1,3 @@
-C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpWebAPI.exe
@@ -13,6 +12,7 @@ C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netco
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
@@ -32,6 +32,7 @@ C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netco
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpDomainLayer.dll
+C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpServiceLayer.dll
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpDomainLayer.pdb
 C:\Users\ABEER\Desktop\RepoTraining2\Repo-For-Training\EmpWebAPI\bin\Debug\netcoreapp3.1\EmpRepositoryLayer.pdb
