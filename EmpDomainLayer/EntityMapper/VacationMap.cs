@@ -11,6 +11,7 @@ namespace EmpDomainLayer.EntityMapper
 {
   public class VacationMap : IEntityTypeConfiguration<Vacation>
   {
+    //define the configuration for the Vacation entity that will be used when the database table will be created by the entity
     public void Configure(EntityTypeBuilder<Vacation> builder)
     {
       builder.HasKey(x => x.Id)

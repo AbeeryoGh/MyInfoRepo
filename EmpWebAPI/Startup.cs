@@ -70,6 +70,7 @@ namespace EmpWebAPI
 
       app.UseAuthorization();
 
+      //swagger middleware 
       app.UseSwagger();
 
       app.UseSwaggerUI(ui =>

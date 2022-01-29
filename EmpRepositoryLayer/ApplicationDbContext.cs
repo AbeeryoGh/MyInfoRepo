@@ -5,6 +5,7 @@ using EmpDomainLayer.Models;
 
 namespace EmpRepositoryLayer
 {
+  // a data access context class
   public class ApplicationDbContext : DbContext
   {
 

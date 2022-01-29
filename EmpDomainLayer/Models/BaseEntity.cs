@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpDomainLayer.Models
 {
+  //BaseEntity class that has common properties
   public class BaseEntity
   {
     public int Id { get; set; }

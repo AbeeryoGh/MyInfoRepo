@@ -10,9 +10,8 @@ namespace EmpServiceLayer.EmpServices
 {
   public class VacationService : IVacationService
   {
-    #region Property  
+    // a class holds all the operations for Vacation entity
     private IRepository<Vacation> _repository;
-    #endregion
 
     #region Constructor  
     public VacationService(IRepository<Vacation> repository)

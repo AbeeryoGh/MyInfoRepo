@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpDomainLayer.Models
 {
+  //Employee class which represent Employee Table
   public class Employee : BaseEntity
   {
     public string Name { get; set; }

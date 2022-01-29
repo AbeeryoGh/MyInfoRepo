@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmpDomainLayer.Models
 {
+  //Vacation class which represent Vacation Table
   public class Vacation : BaseEntity
   {
     //public int Id { get; set; }

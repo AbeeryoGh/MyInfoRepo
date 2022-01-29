@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmpDomainLayer.Models
 {
+  //ETask class which represent ETask Table
   public class ETask : BaseEntity
   {
     //public int Id { get; set; }

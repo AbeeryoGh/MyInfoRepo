@@ -17,7 +17,7 @@ namespace XUnitTestProjectApi
 
       //Get the instance of ApplicationDBContext  
       var context = factory.CreateContextForInMemory();
-
+      //creating two employee objects to add to the In-Memory database
       var employee = new Employee() { Name = "Test Name 3", Position = "Test Position 3", Email = "Test Email 3" };
       var employee2 = new Employee() { Name = "Test Name 3", Position = "Test Position 3", Email = "Test Email 3" };
 

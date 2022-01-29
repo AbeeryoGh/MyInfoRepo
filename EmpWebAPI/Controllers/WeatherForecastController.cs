@@ -36,10 +36,11 @@ namespace EmpWebAPI.Controllers
            .ToArray();
     }
 
-    #region snippet_GetByCity
+
     [HttpGet("{city}")]
     public WeatherForecast Get(string city)
     {
+      //a methode that is set to throw an exception 
       if (!string.Equals(city?.TrimEnd(), "Redmond", StringComparison.OrdinalIgnoreCase))
       {
         throw new ArgumentException(
@@ -49,7 +50,7 @@ namespace EmpWebAPI.Controllers
       //return GetWeather().First();
       return Get().First();
     }
-    #endregion
+
 
 
   }

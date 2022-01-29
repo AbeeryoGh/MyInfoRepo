@@ -8,6 +8,7 @@ namespace EmpRepositoryLayer.RepositoryPattern
 {
   public interface IRepository<T> where T : BaseEntity
   {
+    //a generic repository interface for the entity operations
     IEnumerable<T> GetAll();
     T Get(int Id);
     void Insert(T entity);

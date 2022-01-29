@@ -10,6 +10,7 @@ namespace EmpDomainLayer.EntityMapper
 {
   public class ETaskMap : IEntityTypeConfiguration<ETask>
   {
+    //define the configuration for the ETask entity that will be used when the database table will be created by the entity
     public void Configure(EntityTypeBuilder<ETask> builder)
     {
       builder.HasKey(x => x.Id)

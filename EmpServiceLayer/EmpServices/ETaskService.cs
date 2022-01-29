@@ -10,9 +10,8 @@ namespace EmpServiceLayer.EmpServices
 {
   public class ETaskService : IETaskService
   {
-    #region Property  
+    // a class holds all the operations for ETask entity
     private IRepository<ETask> _repository;
-    #endregion
 
     #region Constructor  
     public ETaskService(IRepository<ETask> repository)

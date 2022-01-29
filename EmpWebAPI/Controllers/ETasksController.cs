@@ -13,9 +13,9 @@ namespace EmpWebAPI.Controllers
   [ApiController]
   public class ETaskController : ControllerBase
   {
-    #region Property  
+    //Create the ETask API Methods which are exposable to UI
     private readonly IETaskService _etaskService;
-    #endregion
+
 
     #region Constructor  
     public ETaskController(IETaskService etaskService)
@@ -23,7 +23,7 @@ namespace EmpWebAPI.Controllers
       _etaskService = etaskService;
     }
     #endregion
-
+    //get Etask by ETaskId
     [HttpGet("{id}")]
     public IActionResult GetETask(int id)
     {
@@ -35,6 +35,7 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
+    //get all the ETasks
     [HttpGet]
     public IActionResult GetAllETasks()
     {
@@ -46,6 +47,7 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
+    //add new ETask
     [HttpPost]
     public IActionResult InsertETask(ETask etask)
     {
@@ -53,6 +55,7 @@ namespace EmpWebAPI.Controllers
       return Ok("Data inserted");
 
     }
+    //update Etask
     [HttpPut]
     public IActionResult UpdateETask(ETask etask)
     {
@@ -60,6 +63,7 @@ namespace EmpWebAPI.Controllers
       return Ok("Updation done");
 
     }
+    //delete Etask
     [HttpDelete("{id}")]
     public IActionResult DeleteETask(int Id)
     {

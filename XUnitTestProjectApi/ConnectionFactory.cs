@@ -8,8 +8,7 @@ namespace XUnitTestProjectApi
 {
   public class ConnectionFactory : IDisposable
   {
-
-    #region IDisposable Support  
+    //a class hich will create a database on runtime with the name "Test_Database" 
     private bool disposedValue = false; // To detect redundant calls  
 
     public ApplicationDbContext CreateContextForInMemory()
@@ -19,10 +18,12 @@ namespace XUnitTestProjectApi
       var context = new ApplicationDbContext(option);
       if (context != null)
       {
+        //ensures that database has been deleted from the memory with the similar name if available 
         context.Database.EnsureDeleted();
+        //recreate the database
         context.Database.EnsureCreated();
       }
-
+      //return DBContext class object for In-Memory Provider
       return context;
     }
 
@@ -42,6 +43,6 @@ namespace XUnitTestProjectApi
     {
       Dispose(true);
     }
-    #endregion
+
   }
 }

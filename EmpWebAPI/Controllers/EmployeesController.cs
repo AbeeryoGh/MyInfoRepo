@@ -15,15 +15,14 @@ namespace EmpWebAPI.Controllers
   [ApiController]
   public class EmployeeController : ControllerBase
   {
-    #region Property  
+    //Create the Employee API Methods which are exposable to UI
     private readonly IEmployeeService _employeeService;
     private readonly IETaskService _etaskservice;
-   // private readonly IVacationService _vacationservice;
-   
-    #endregion
+    // private readonly IVacationService _vacationservice;
+
 
     #region Constructor  
-    public EmployeeController(IEmployeeService employeeService,IETaskService etaskservice)
+    public EmployeeController(IEmployeeService employeeService, IETaskService etaskservice)
     {
       _employeeService = employeeService;
       _etaskservice = etaskservice;
@@ -31,6 +30,7 @@ namespace EmpWebAPI.Controllers
     }
     #endregion
 
+    //get employee by id
     [HttpGet("{id}")]
     public IActionResult GetEmployee(int id)
     {
@@ -43,14 +43,14 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
-
+    //get all Etasks for an employee
     [HttpGet("{id}/Tasks")]
     public IActionResult GetEmployeeTasks(int id)
     {
 
       var result = _employeeService.Get(id);
       result.ETasks = _etaskservice.Get().Where(em => em.EmployeeId == id).ToList();
-//      result.Vacations = _vacationservice.Get().Where(em => em.EmployeeId == id).ToList();
+      //result.Vacations = _vacationservice.Get().Where(em => em.EmployeeId == id).ToList();
 
       if (!(result is null))
       {
@@ -59,7 +59,7 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
-
+    //get all employees
     [HttpGet]
     public IActionResult GetAllEmployees()
     {
@@ -71,6 +71,7 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
+    //add new employee
     [HttpPost]
     public IActionResult InsertEmployee(Employee employee)
     {
@@ -78,6 +79,7 @@ namespace EmpWebAPI.Controllers
       return Ok("Data inserted");
 
     }
+    //update an employee
     [HttpPut]
     public IActionResult UpdateEmployee(Employee employee)
     {
@@ -85,6 +87,7 @@ namespace EmpWebAPI.Controllers
       return Ok("Updation done");
 
     }
+    //delete employee by its id
     [HttpDelete("{id}")]
     public IActionResult DeleteEmployee(int Id)
     {

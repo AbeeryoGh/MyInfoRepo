@@ -13,9 +13,9 @@ namespace EmpWebAPI.Controllers
   [ApiController]
   public class VacationController : ControllerBase
   {
-    #region Property  
+    //Create the vacation API Methods which are exposable to UI
     private readonly IVacationService _vacationService;
-    #endregion
+
 
     #region Constructor  
     public VacationController(IVacationService vacationService)
@@ -24,6 +24,7 @@ namespace EmpWebAPI.Controllers
     }
     #endregion
 
+    //get vacation by vacationId
     [HttpGet("{id}")]
     public IActionResult GetVacation(int id)
     {
@@ -35,6 +36,7 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
+    //get all vacations
     [HttpGet]
     public IActionResult GetAllVacations()
     {
@@ -46,6 +48,7 @@ namespace EmpWebAPI.Controllers
       return BadRequest("No records found");
 
     }
+    //add new vacation
     [HttpPost]
     public IActionResult InsertVacation(Vacation vacation)
     {
@@ -53,6 +56,7 @@ namespace EmpWebAPI.Controllers
       return Ok("Data inserted");
 
     }
+    //update vacation 
     [HttpPut]
     public IActionResult UpdateVacation(Vacation vacation)
     {
@@ -60,6 +64,7 @@ namespace EmpWebAPI.Controllers
       return Ok("Updation done");
 
     }
+    //delete vacation
     [HttpDelete("{id}")]
     public IActionResult DeleteVacation(int Id)
     {

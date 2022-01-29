@@ -30,7 +30,7 @@ namespace EmpWebAPI.Controllers
     //      title: context.Error.Message,
     //      statusCode : context.Error.HResult);
     //}
-
+    //a middleware  to catch exceptions for  Non-Developement Environment 
     [HttpGet]
     [Route("/error")]
     public IActionResult Error([FromServices] IWebHostEnvironment webHostEnvironment)

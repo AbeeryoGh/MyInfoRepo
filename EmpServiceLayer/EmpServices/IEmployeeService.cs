@@ -9,6 +9,7 @@ namespace EmpServiceLayer.EmpServices
 {
   public interface IEmployeeService
   {
+    //interface holds all methods signature which accesses by external layer for the Employee entity
     IEnumerable<Employee> Get();
     Employee Get(int id);
     void Post(Employee employee);

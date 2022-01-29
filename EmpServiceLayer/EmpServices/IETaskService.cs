@@ -9,6 +9,7 @@ namespace EmpServiceLayer.EmpServices
 {
   public interface IETaskService
   {
+    //interface holds all methods signature which accesses by external layer for the Etask entity
     IEnumerable<ETask> Get();
     ETask Get(int id);
     void Post(ETask etask);

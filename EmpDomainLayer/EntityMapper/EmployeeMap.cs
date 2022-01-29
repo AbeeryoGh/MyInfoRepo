@@ -11,6 +11,7 @@ namespace EmpDomainLayer.EntityMapper
 {
   public class EmployeeMap : IEntityTypeConfiguration<Employee>
   {
+    //define the configuration for the Employee entity that will be used when the database table will be created by the entity
     public void Configure(EntityTypeBuilder<Employee> builder)
     {
       builder.HasKey(x => x.Id)

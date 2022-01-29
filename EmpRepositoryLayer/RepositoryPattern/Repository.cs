@@ -10,10 +10,9 @@ namespace EmpRepositoryLayer.RepositoryPattern
 {
   public class Repository<T> : IRepository<T> where T : BaseEntity
   {
-    #region property  
+    //a class to perform database operations on the entity, which implements IRepository  
     private readonly ApplicationDbContext _applicationDbContext;
     private DbSet<T> entities;
-    #endregion
 
     #region Constructor  
     public Repository(ApplicationDbContext applicationDbContext)
